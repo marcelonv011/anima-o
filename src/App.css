@@ -1,38 +1,195 @@
 .App {
   text-align: center;
 }
+.asd {
+  margin: 100px 110px 560 120px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.titulo {
+  text-align: center;
+  font-size: 10px;
+  overflow: hidden;
+  font-family: "Inter-Bold", "Inter", sans-serif;
+  border-bottom: 8px solid rgb(6, 237, 245);
+  border-top: 8px solid rgb(6, 237, 245);
+  -webkit-transition:-webkit-transform 1s ease-out;
+  -moz-transition:-moz-transform 1s ease-out;
+  -o-transition:-o-transform 1s ease-out;
+  -ms-transition:-ms-transform 1s ease-out;
+  transition:transform 1s ease-out;
+  font-size: 25px;
+}
+
+.log{
+  background: linear-gradient(180deg, #02bef7 0%, hsl(0, 0%, 72%) 100%);
+  height: 300px;
+  margin: 10px 0px 0 0px;
+}
+
+.usuario{
+  text-align: center;
+}
+
+  .titulo:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1)
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  main {
+    width: 125vw;
+    height: 10vh;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .dank-ass-loader {
+    display: -ms-inline-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+            align-items: center;
   }
-}
+  .dank-ass-loader .row {
+    display: -webkit-box;
+    display: flex;
+    margin: 0px 0px 0 0px;
+  }
+  
+  .arrow {
+    margin: 0 -6px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 15px solid #fc0707;
+    -webkit-animation: blink 1s infinite;
+            animation: blink 1s infinite;
+    -webkit-filter: drop-shadow(0 0 5px #fc0707);
+            filter: drop-shadow(0 0 5px#fc0707);
+  }
+  .arrow.down {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .arrow.outer-1 {
+    -webkit-animation-delay: -0.0555555556s;
+            animation-delay: -0.0555555556s;
+  }
+  .arrow.outer-2 {
+    -webkit-animation-delay: -0.1111111111s;
+            animation-delay: -0.1111111111s;
+  }
+  .arrow.outer-3 {
+    -webkit-animation-delay: -0.1666666667s;
+            animation-delay: -0.1666666667s;
+  }
+  .arrow.outer-4 {
+    -webkit-animation-delay: -0.2222222222s;
+            animation-delay: -0.2222222222s;
+  }
+  .arrow.outer-5 {
+    -webkit-animation-delay: -0.2777777778s;
+            animation-delay: -0.2777777778s;
+  }
+  .arrow.outer-6 {
+    -webkit-animation-delay: -0.3333333333s;
+            animation-delay: -0.3333333333s;
+  }
+  .arrow.outer-7 {
+    -webkit-animation-delay: -0.3888888889s;
+            animation-delay: -0.3888888889s;
+  }
+  .arrow.outer-8 {
+    -webkit-animation-delay: -0.4444444444s;
+            animation-delay: -0.4444444444s;
+  }
+  .arrow.outer-9 {
+    -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+  }
+  .arrow.outer-10 {
+    -webkit-animation-delay: -0.5555555556s;
+            animation-delay: -0.5555555556s;
+  }
+  .arrow.outer-11 {
+    -webkit-animation-delay: -0.6111111111s;
+            animation-delay: -0.6111111111s;
+  }
+  .arrow.outer-12 {
+    -webkit-animation-delay: -0.6666666667s;
+            animation-delay: -0.6666666667s;
+  }
+  .arrow.outer-13 {
+    -webkit-animation-delay: -0.7222222222s;
+            animation-delay: -0.7222222222s;
+  }
+  .arrow.outer-14 {
+    -webkit-animation-delay: -0.7777777778s;
+            animation-delay: -0.7777777778s;
+  }
+  .arrow.outer-15 {
+    -webkit-animation-delay: -0.8333333333s;
+            animation-delay: -0.8333333333s;
+  }
+  .arrow.outer-16 {
+    -webkit-animation-delay: -0.8888888889s;
+            animation-delay: -0.8888888889s;
+  }
+  .arrow.outer-17 {
+    -webkit-animation-delay: -0.9444444444s;
+            animation-delay: -0.9444444444s;
+  }
+  .arrow.outer-18 {
+    -webkit-animation-delay: -1s;
+            animation-delay: -1s;
+  }
+  .arrow.inner-1 {
+    -webkit-animation-delay: -0.1666666667s;
+            animation-delay: -0.1666666667s;
+  }
+  .arrow.inner-2 {
+    -webkit-animation-delay: -0.3333333333s;
+            animation-delay: -0.3333333333s;
+  }
+  .arrow.inner-3 {
+    -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+  }
+  .arrow.inner-4 {
+    -webkit-animation-delay: -0.6666666667s;
+            animation-delay: -0.6666666667s;
+  }
+  .arrow.inner-5 {
+    -webkit-animation-delay: -0.8333333333s;
+            animation-delay: -0.8333333333s;
+  }
+  .arrow.inner-6 {
+    -webkit-animation-delay: -1s;
+            animation-delay: -1s;
+  }
+  
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 0.1;
+    }
+    20% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.1;
+    }
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0.1;
+    }
+    20% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.1;
+    }
+  }
